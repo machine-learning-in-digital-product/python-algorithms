@@ -1,0 +1,68 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.dll
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb_meta.json
+
+# --- pytest / coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# --- MyPy / Pylint / Ruff ---
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+ruff_cache/
+
+# --- Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- MacOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Logs / temp ---
+*.log
+*.tmp
+*.bak
+
+# --- Data / ML artifacts ---
+data/
+datasets/
+outputs/
+models/
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.onnx
